@@ -49,7 +49,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/KaosBass/OtakuBot/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/OtakuCodeBot/Bot_Code/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -190,7 +190,7 @@
         status: false,
         name: "OtakuNet Bot",
         loggedInID: null,
-        scriptLink: https://rawgit.com/OtakuCodeBot/Bot_Code/master/basicBot.js",
+        scriptLink: "https://rawgit.com/OtakuCodeBot/Bot_Code/master/basicBot.js",
         cmdLink: "",
         chatLink: "https://rawgit.com/OtakuCodeBot/Bot_Code/master/lang/en.json",
         chat: null,
