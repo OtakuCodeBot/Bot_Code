@@ -186,7 +186,7 @@
     var botCreatorIDs = ["6068715"];
 
     var basicBot = {
-        version: "1.0.1",
+        version: "2.0.1",
         status: false,
         name: "OtakuNet Bot",
         loggedInID: null,
